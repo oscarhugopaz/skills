@@ -6,7 +6,7 @@ description: Manage Simply Static and Simply Static Pro from WordPress with WP-C
 
 Use this skill to operate the Simply Static WordPress plugin through WP-CLI. The WP-CLI integration documented by Simply Static requires Simply Static Pro.
 
-Source documentation: https://docs.simplystatic.com/article/51-working-with-wp-cli
+Source documentation and detailed command reference: [REFERENCE.md](REFERENCE.md)
 
 ## Before Running Commands
 
@@ -42,7 +42,7 @@ wp simply-static export
 wp simply-static import --json=JSON_STRING --file=/absolute/path/to/settings.json
 ```
 
-Use normal double hyphens for flags. The source docs show the import command with typographic dashes in one place; convert those to `--` before running.
+Use normal double hyphens for flags; see [REFERENCE.md](REFERENCE.md) for full usage.
 
 ## Include Rules
 
